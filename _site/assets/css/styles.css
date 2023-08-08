@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background: #dedede;
+  padding: 2em 1.5em;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1.5em;
+  font-size: 1.5rem;
+  color: #2e61ad;
+}
+
+.current {
+  color: red;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.index * {
+  margin: 1em 0;
+}
+
+.btn {
+  background-color: #2e61ad;
+  color: #fff;
+  padding: 0.5em 4em;
+}
+
+.post__list-li {
+  background-color: #5c8cd4;
+  margin-top: 1em;
+  padding: 3em 0;
+}
+
+.post {
+  font-size: 2rem;
+}
+
+.post__title {
+  color: #fff;
+}
+
+h1 {
+  margin-top: 0.8em;
+}
+
+/*# sourceMappingURL=styles.css.map */

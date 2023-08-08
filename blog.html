@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog
+---
+
+<h1>My Latest Posts</h1>
+
+<ul class="post__list">
+	{% for post in site.posts %}
+		<li class="post__list-li">
+			<h2>
+				<a class="post post__title"_href="{{post.url}}">
+					{{post.title}}
+				</a>
+			</h2>
+			{{post.excerpt}}
+		</li>
+	{% endfor %}
+</ul>

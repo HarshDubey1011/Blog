@@ -1,0 +1,13 @@
+---
+layout: default
+title: Jekyll Practice
+myname: Harsh Dubey
+---
+<div class="index">
+	<h1>Welcome to my Blog page Here I share My daily activities and write what's new thing in tech</h1>
+	<h2>I am {{page.myname}}, Aspiring Full Stack Developer</h2>
+	<p>See my latest Blogs</p>
+	<a class = 'btn' href="blog.html" {% if page.url == blog.html %}class="current"{% endif %}>
+		Blog
+	</a>
+</div>
